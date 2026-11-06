@@ -1,0 +1,2026 @@
+{
+  "project": {
+    "id": "project_1793547751865_9m62jmvoj",
+    "type": "Project",
+    "schemaVersion": 6,
+    "name": "Hello_World",
+    "description": "Student Project Managment",
+    "owner": "dudhe_malvika_fabian",
+    "createdAt": "2026-11-03T15:57:20.136Z",
+    "currentDiagramType": "GUINoCodeDiagram",
+    "currentDiagramIndices": {
+      "ClassDiagram": 0,
+      "ObjectDiagram": 0,
+      "StateMachineDiagram": 0,
+      "AgentDiagram": 0,
+      "ComponentDiagram": 0,
+      "DeploymentDiagram": 0,
+      "NNDiagram": 0,
+      "UserDiagram": 0,
+      "GUINoCodeDiagram": 0,
+      "QuantumCircuitDiagram": 0,
+      "BPMN": 0,
+      "KnowledgeGraphDiagram": 0
+    },
+    "diagrams": {
+      "ClassDiagram": [
+        {
+          "id": "a3e7db77-88f5-4194-aac9-8433d50468d7",
+          "title": "Class Diagram",
+          "model": {
+            "version": "3.0.0",
+            "type": "ClassDiagram",
+            "size": {
+              "width": 680,
+              "height": 300
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "class_kjy9sn6ld_mw0vgnrg_m1e": {
+                "id": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                "name": "HelloWorld",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": -320,
+                  "y": -130,
+                  "width": 220,
+                  "height": 145
+                },
+                "attributes": [
+                  "attr_3m1lux1cx_mw0vgnrg_qre",
+                  "14fd3c5e-aa01-4098-9213-98c00fffb131"
+                ],
+                "methods": [
+                  "method_zg5zggc0r_mw0vgnrg_d4h",
+                  "method_q42piav36_mw4zqmk6_srk"
+                ]
+              },
+              "attr_3m1lux1cx_mw0vgnrg_qre": {
+                "id": "attr_3m1lux1cx_mw0vgnrg_qre",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                "bounds": {
+                  "x": -319.5,
+                  "y": -89.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "private",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": true
+              },
+              "14fd3c5e-aa01-4098-9213-98c00fffb131": {
+                "id": "14fd3c5e-aa01-4098-9213-98c00fffb131",
+                "name": "Name",
+                "type": "ClassAttribute",
+                "owner": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                "bounds": {
+                  "x": -319.5,
+                  "y": -64.5,
+                  "width": 219,
+                  "height": 30
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "method_zg5zggc0r_mw0vgnrg_d4h": {
+                "id": "method_zg5zggc0r_mw0vgnrg_d4h",
+                "name": "showHelloWorld()",
+                "type": "ClassMethod",
+                "owner": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                "bounds": {
+                  "x": -319.5,
+                  "y": -34.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "any",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "method_q42piav36_mw4zqmk6_srk": {
+                "id": "method_q42piav36_mw4zqmk6_srk",
+                "name": "+ showCurrentTime(): any",
+                "type": "ClassMethod",
+                "owner": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                "bounds": {
+                  "x": -319.5,
+                  "y": -9.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "any",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_yj7pqh7vi_mw4zqmk6_dtb": {
+                "id": "class_yj7pqh7vi_mw4zqmk6_dtb",
+                "name": "TimeService",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 220,
+                  "height": 65
+                },
+                "attributes": [],
+                "methods": [
+                  "method_ye0hlrs7f_mw4zqmk6_ih6"
+                ]
+              },
+              "method_ye0hlrs7f_mw4zqmk6_ih6": {
+                "id": "method_ye0hlrs7f_mw4zqmk6_ih6",
+                "name": "+ getCurrentTime(): datetime",
+                "type": "ClassMethod",
+                "owner": "class_yj7pqh7vi_mw4zqmk6_dtb",
+                "bounds": {
+                  "x": 0.5,
+                  "y": 40.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              }
+            },
+            "relationships": {},
+            "assessments": {}
+          },
+          "lastUpdate": "2026-11-06T14:03:04.264Z"
+        }
+      ],
+      "GUINoCodeDiagram": [
+        {
+          "id": "c728431f-e60e-47dd-98e0-3912c9c73ccb",
+          "title": "GUI Diagram",
+          "model": {
+            "pages": [
+              {
+                "name": "HelloWorld",
+                "frames": [
+                  {
+                    "component": {
+                      "type": "wrapper",
+                      "stylable": [
+                        "background",
+                        "background-color",
+                        "background-image",
+                        "background-repeat",
+                        "background-attachment",
+                        "background-position",
+                        "background-size"
+                      ],
+                      "attributes": {
+                        "id": "i1p5"
+                      },
+                      "components": [
+                        {
+                          "attributes": {
+                            "id": "itj27"
+                          },
+                          "components": [
+                            {
+                              "tagName": "nav",
+                              "attributes": {
+                                "id": "i2lqa"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h2",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i2nhk"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "BESSER"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "i8ejw"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/helloworld",
+                                        "id": "ibl3c"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "HelloWorld"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/timeservice",
+                                        "id": "i6nvk"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "TimeService"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "ifh7a"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "\u00a9 2026 BESSER. All rights reserved."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "main",
+                              "attributes": {
+                                "id": "ic7fv"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h1",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i928z"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "HelloWorld"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "p",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "iy68f"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "do I need owner to make changes"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "table",
+                                  "style": "",
+                                  "classes": [
+                                    "has-data-binding"
+                                  ],
+                                  "attributes": {
+                                    "chart-color": "#2c3e50",
+                                    "chart-title": "HelloWorld List",
+                                    "data-source": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                                    "show-header": "true",
+                                    "striped-rows": "false",
+                                    "show-pagination": "true",
+                                    "rows-per-page": "5",
+                                    "action-buttons": "true",
+                                    "columns": [
+                                      {
+                                        "field": "id",
+                                        "label": "Id",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "Name",
+                                        "label": "Name",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      }
+                                    ],
+                                    "id": "table-helloworld-0",
+                                    "filter": ""
+                                  },
+                                  "chart-title": "HelloWorld List",
+                                  "data-source": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "action-buttons": "true",
+                                  "rows-per-page": "5",
+                                  "filter": "",
+                                  "columns": [
+                                    {
+                                      "field": "id",
+                                      "label": "Id",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "Name",
+                                      "label": "Name",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "tbody",
+                                      "draggable": [
+                                        "table"
+                                      ],
+                                      "droppable": [
+                                        "tr"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "row",
+                                          "draggable": [
+                                            "thead",
+                                            "tbody",
+                                            "tfoot"
+                                          ],
+                                          "droppable": [
+                                            "th",
+                                            "td"
+                                          ],
+                                          "classes": [
+                                            "row"
+                                          ],
+                                          "components": [
+                                            {
+                                              "type": "cell",
+                                              "draggable": [
+                                                "tr"
+                                              ],
+                                              "classes": [
+                                                "cell"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "chart-color": "#2c3e50"
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "ipvsa"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "action-button",
+                                      "style": "",
+                                      "classes": [
+                                        "action-button-component"
+                                      ],
+                                      "attributes": {
+                                        "type": "button",
+                                        "data-button-label": "showHelloWorld",
+                                        "data-action-type": "run-method",
+                                        "data-method-class": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                                        "data-method": "method_zg5zggc0r_mw0vgnrg_d4h",
+                                        "data-instance-source": "table-helloworld-0",
+                                        "id": "ilafy"
+                                      },
+                                      "button-label": "showHelloWorld",
+                                      "action-type": "run-method",
+                                      "method-class": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                                      "method": "method_zg5zggc0r_mw0vgnrg_d4h",
+                                      "instance-source": "table-helloworld-0",
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "showHelloWorld"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "action-button",
+                                      "style": "",
+                                      "classes": [
+                                        "action-button-component"
+                                      ],
+                                      "attributes": {
+                                        "type": "button",
+                                        "data-button-label": "+ showCurrentTime",
+                                        "data-action-type": "run-method",
+                                        "data-method-class": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                                        "data-method": "method_q42piav36_mw4zqmk6_srk",
+                                        "data-instance-source": "table-helloworld-0",
+                                        "id": "i84pc"
+                                      },
+                                      "button-label": "+ showCurrentTime",
+                                      "action-type": "run-method",
+                                      "method-class": "class_kjy9sn6ld_mw0vgnrg_m1e",
+                                      "method": "method_q42piav36_mw4zqmk6_srk",
+                                      "instance-source": "table-helloworld-0",
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "+ showCurrentTime"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "head": {
+                        "type": "head"
+                      },
+                      "docEl": {
+                        "tagName": "html"
+                      }
+                    },
+                    "id": "3TNCned3Swg8RWok"
+                  }
+                ],
+                "id": "page-helloworld-0",
+                "route_path": "/helloworld",
+                "besserBaseSnapshot": "{\"components\":[{\"attributes\":{\"id\":\"itj27\"},\"components\":[{\"tagName\":\"nav\",\"attributes\":{\"id\":\"i2lqa\"},\"components\":[{\"tagName\":\"h2\",\"type\":\"text\",\"attributes\":{\"id\":\"i2nhk\"},\"components\":[{\"type\":\"textnode\",\"content\":\"BESSER\"}]},{\"attributes\":{\"id\":\"i8ejw\"},\"components\":[{\"type\":\"link\",\"attributes\":{\"href\":\"/helloworld\",\"id\":\"ibl3c\"},\"components\":[{\"type\":\"textnode\",\"content\":\"HelloWorld\"}]},{\"type\":\"link\",\"attributes\":{\"href\":\"/timeservice\",\"id\":\"i6nvk\"},\"components\":[{\"type\":\"textnode\",\"content\":\"TimeService\"}]}]},{\"type\":\"text\",\"attributes\":{\"id\":\"ifh7a\"},\"components\":[{\"type\":\"textnode\",\"content\":\"\u00a9 2026 BESSER. All rights reserved.\"}]}]},{\"tagName\":\"main\",\"attributes\":{\"id\":\"ic7fv\"},\"components\":[{\"tagName\":\"h1\",\"type\":\"text\",\"attributes\":{\"id\":\"i928z\"},\"components\":[{\"type\":\"textnode\",\"content\":\"HelloWorld\"}]},{\"tagName\":\"p\",\"type\":\"text\",\"attributes\":{\"id\":\"iy68f\"},\"components\":[{\"type\":\"textnode\",\"content\":\"do I need owner to make changes\"}]},{\"type\":\"table\",\"style\":\"\",\"classes\":[\"has-data-binding\"],\"attributes\":{\"chart-color\":\"#2c3e50\",\"chart-title\":\"HelloWorld List\",\"data-source\":\"class_kjy9sn6ld_mw0vgnrg_m1e\",\"show-header\":\"true\",\"striped-rows\":\"false\",\"show-pagination\":\"true\",\"rows-per-page\":\"5\",\"action-buttons\":\"true\",\"columns\":[{\"field\":\"id\",\"label\":\"Id\",\"columnType\":\"field\",\"_expanded\":false},{\"field\":\"Name\",\"label\":\"Name\",\"columnType\":\"field\",\"_expanded\":false}],\"id\":\"table-helloworld-0\",\"filter\":\"\"},\"chart-title\":\"HelloWorld List\",\"data-source\":\"class_kjy9sn6ld_mw0vgnrg_m1e\",\"show-header\":\"true\",\"striped-rows\":\"false\",\"show-pagination\":\"true\",\"action-buttons\":\"true\",\"rows-per-page\":\"5\",\"filter\":\"\",\"columns\":[{\"field\":\"id\",\"label\":\"Id\",\"columnType\":\"field\",\"_expanded\":false},{\"field\":\"Name\",\"label\":\"Name\",\"columnType\":\"field\",\"_expanded\":false}],\"components\":[{\"type\":\"tbody\",\"draggable\":[\"table\"],\"droppable\":[\"tr\"],\"components\":[{\"type\":\"row\",\"draggable\":[\"thead\",\"tbody\",\"tfoot\"],\"droppable\":[\"th\",\"td\"],\"classes\":[\"row\"],\"components\":[{\"type\":\"cell\",\"draggable\":[\"tr\"],\"classes\":[\"cell\"]}]}]}],\"chart-color\":\"#2c3e50\"},{\"attributes\":{\"id\":\"ipvsa\"},\"components\":[{\"type\":\"action-button\",\"style\":\"\",\"classes\":[\"action-button-component\"],\"attributes\":{\"type\":\"button\",\"data-button-label\":\"showHelloWorld\",\"data-action-type\":\"run-method\",\"data-method-class\":\"class_kjy9sn6ld_mw0vgnrg_m1e\",\"data-method\":\"method_zg5zggc0r_mw0vgnrg_d4h\",\"data-instance-source\":\"table-helloworld-0\",\"id\":\"ilafy\"},\"button-label\":\"showHelloWorld\",\"action-type\":\"run-method\",\"method-class\":\"class_kjy9sn6ld_mw0vgnrg_m1e\",\"method\":\"method_zg5zggc0r_mw0vgnrg_d4h\",\"instance-source\":\"table-helloworld-0\",\"components\":[{\"type\":\"textnode\",\"content\":\"showHelloWorld\"}]},{\"type\":\"action-button\",\"style\":\"\",\"classes\":[\"action-button-component\"],\"attributes\":{\"type\":\"button\",\"data-button-label\":\"+ showCurrentTime\",\"data-action-type\":\"run-method\",\"data-method-class\":\"class_kjy9sn6ld_mw0vgnrg_m1e\",\"data-method\":\"method_q42piav36_mw4zqmk6_srk\",\"data-instance-source\":\"table-helloworld-0\",\"id\":\"i84pc\"},\"button-label\":\"+ showCurrentTime\",\"action-type\":\"run-method\",\"method-class\":\"class_kjy9sn6ld_mw0vgnrg_m1e\",\"method\":\"method_q42piav36_mw4zqmk6_srk\",\"instance-source\":\"table-helloworld-0\",\"components\":[{\"type\":\"textnode\",\"content\":\"+ showCurrentTime\"}]}]}]}]}],\"css\":[{\"selectors\":[\"#itj27\"],\"style\":{\"display\":\"flex\",\"height\":\"100vh\",\"font-family\":\"Arial, sans-serif\"}},{\"selectors\":[\"#i2lqa\"],\"style\":{\"width\":\"250px\",\"background\":\"linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)\",\"color\":\"white\",\"padding\":\"20px\",\"overflow-y\":\"auto\",\"display\":\"flex\",\"flex-direction\":\"column\"}},{\"selectors\":[\"#i2nhk\"],\"style\":{\"margin-top\":\"0\",\"font-size\":\"24px\",\"margin-bottom\":\"30px\",\"font-weight\":\"bold\"}},{\"selectors\":[\"#i8ejw\"],\"style\":{\"display\":\"flex\",\"flex-direction\":\"column\",\"flex\":\"1\"}},{\"selectors\":[\"#ibl3c\"],\"style\":{\"color\":\"white\",\"text-decoration\":\"none\",\"padding\":\"10px 15px\",\"display\":\"block\",\"background\":\"rgba(255,255,255,0.2)\",\"border-radius\":\"4px\",\"margin-bottom\":\"5px\"}},{\"selectors\":[\"#i6nvk\"],\"style\":{\"color\":\"white\",\"text-decoration\":\"none\",\"padding\":\"10px 15px\",\"display\":\"block\",\"background\":\"transparent\",\"border-radius\":\"4px\",\"margin-bottom\":\"5px\"}},{\"selectors\":[\"#ifh7a\"],\"style\":{\"margin-top\":\"auto\",\"padding-top\":\"20px\",\"border-top\":\"1px solid rgba(255,255,255,0.2)\",\"font-size\":\"11px\",\"opacity\":\"0.8\",\"text-align\":\"center\"}},{\"selectors\":[\"#ic7fv\"],\"style\":{\"flex\":\"1\",\"padding\":\"40px\",\"overflow-y\":\"auto\",\"background\":\"#f5f5f5\"}},{\"selectors\":[\"#i928z\"],\"style\":{\"margin-top\":\"0\",\"color\":\"#333\",\"font-size\":\"32px\",\"margin-bottom\":\"10px\"}},{\"selectors\":[\"#iy68f\"],\"style\":{\"color\":\"#666\",\"margin-bottom\":\"30px\"}},{\"selectors\":[\"#table-helloworld-0\"],\"style\":{\"width\":\"100%\",\"min-height\":\"400px\"}},{\"selectors\":[\"#ipvsa\"],\"style\":{\"margin-top\":\"20px\",\"display\":\"flex\",\"gap\":\"10px\",\"flex-wrap\":\"wrap\"}},{\"selectors\":[\"#ilafy\"],\"style\":{\"display\":\"inline-flex\",\"align-items\":\"center\",\"padding\":\"6px 14px\",\"background\":\"linear-gradient(90deg, #2563eb 0%, #1e40af 100%)\",\"color\":\"#fff\",\"text-decoration\":\"none\",\"border-radius\":\"4px\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"letter-spacing\":\"0.01em\",\"cursor\":\"pointer\",\"border\":\"none\",\"box-shadow\":\"0 1px 4px rgba(37,99,235,0.10)\",\"transition\":\"background 0.2s\"}},{\"selectors\":[\"#i84pc\"],\"style\":{\"display\":\"inline-flex\",\"align-items\":\"center\",\"padding\":\"6px 14px\",\"background\":\"linear-gradient(90deg, #2563eb 0%, #1e40af 100%)\",\"color\":\"#fff\",\"text-decoration\":\"none\",\"border-radius\":\"4px\",\"font-size\":\"13px\",\"font-weight\":\"600\",\"letter-spacing\":\"0.01em\",\"cursor\":\"pointer\",\"border\":\"none\",\"box-shadow\":\"0 1px 4px rgba(37,99,235,0.10)\",\"transition\":\"background 0.2s\"}}]}"
+              },
+              {
+                "name": "TimeService",
+                "frames": [
+                  {
+                    "component": {
+                      "type": "wrapper",
+                      "stylable": [
+                        "background",
+                        "background-color",
+                        "background-image",
+                        "background-repeat",
+                        "background-attachment",
+                        "background-position",
+                        "background-size"
+                      ],
+                      "attributes": {
+                        "id": "inote"
+                      },
+                      "components": [
+                        {
+                          "attributes": {
+                            "id": "ih1wo"
+                          },
+                          "components": [
+                            {
+                              "tagName": "nav",
+                              "attributes": {
+                                "id": "ih9e4"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h2",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "ii32i"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "BESSER"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "inx3k"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/helloworld",
+                                        "id": "igejr"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "HelloWorld"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/timeservice",
+                                        "id": "imhov"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "TimeService"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i39lf"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "\u00a9 2026 BESSER. All rights reserved."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "main",
+                              "attributes": {
+                                "id": "ihd8x"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h1",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "icgh9"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "TimeService"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "p",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i1x0f"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Manage TimeService data"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "table",
+                                  "style": "",
+                                  "classes": [
+                                    "has-data-binding"
+                                  ],
+                                  "attributes": {
+                                    "chart-color": "#2c3e50",
+                                    "chart-title": "TimeService List",
+                                    "data-source": "class_yj7pqh7vi_mw4zqmk6_dtb",
+                                    "show-header": "true",
+                                    "striped-rows": "false",
+                                    "show-pagination": "true",
+                                    "rows-per-page": "5",
+                                    "action-buttons": "true",
+                                    "columns": [],
+                                    "id": "table-timeservice-1",
+                                    "filter": ""
+                                  },
+                                  "chart-title": "TimeService List",
+                                  "data-source": "class_yj7pqh7vi_mw4zqmk6_dtb",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "action-buttons": "true",
+                                  "rows-per-page": "5",
+                                  "filter": "",
+                                  "columns": [],
+                                  "components": [
+                                    {
+                                      "type": "tbody",
+                                      "draggable": [
+                                        "table"
+                                      ],
+                                      "droppable": [
+                                        "tr"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "row",
+                                          "draggable": [
+                                            "thead",
+                                            "tbody",
+                                            "tfoot"
+                                          ],
+                                          "droppable": [
+                                            "th",
+                                            "td"
+                                          ],
+                                          "classes": [
+                                            "row"
+                                          ],
+                                          "components": [
+                                            {
+                                              "type": "cell",
+                                              "draggable": [
+                                                "tr"
+                                              ],
+                                              "classes": [
+                                                "cell"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "chart-color": "#2c3e50"
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "i5mr3"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "action-button",
+                                      "content": "+ getCurrentTime",
+                                      "style": "",
+                                      "classes": [
+                                        "action-button-component"
+                                      ],
+                                      "attributes": {
+                                        "type": "button",
+                                        "data-button-label": "+ getCurrentTime",
+                                        "data-action-type": "run-method",
+                                        "data-method-class": "class_yj7pqh7vi_mw4zqmk6_dtb",
+                                        "data-method": "method_ye0hlrs7f_mw4zqmk6_ih6",
+                                        "data-instance-source": "table-timeservice-1",
+                                        "id": "icy2k",
+                                        "data-confirmation": "false",
+                                        "data-confirmation-message": "Are you sure?",
+                                        "button-label": "+ getCurrentTime",
+                                        "data-method-name": "method_ye0hlrs7f_mw4zqmk6_ih6"
+                                      },
+                                      "button-label": "+ getCurrentTime",
+                                      "action-type": "run-method",
+                                      "method-class": "class_yj7pqh7vi_mw4zqmk6_dtb",
+                                      "method": "method_ye0hlrs7f_mw4zqmk6_ih6",
+                                      "instance-source": "table-timeservice-1",
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "+ getCurrentTime"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "head": {
+                        "type": "head"
+                      },
+                      "docEl": {
+                        "tagName": "html"
+                      }
+                    },
+                    "id": "FxaUuIwGmjYWovC6"
+                  }
+                ],
+                "id": "page-timeservice-1",
+                "route_path": "/timeservice"
+              }
+            ],
+            "styles": [
+              {
+                "selectors": [],
+                "selectorsAdd": "*",
+                "style": {
+                  "box-sizing": "border-box"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ":root",
+                "style": {
+                  "--ds-primary": "#2563eb",
+                  "--ds-secondary": "#475569",
+                  "--ds-accent": "#0ea5e9",
+                  "--ds-surface": "#ffffff",
+                  "--ds-background": "#f8fafc",
+                  "--ds-text": "#0f172a",
+                  "--ds-muted": "#64748b",
+                  "--ds-border": "#e2e8f0",
+                  "--ds-radius": "8px",
+                  "--ds-shadow": "0 2px 8px rgba(15, 23, 42, 0.08)",
+                  "--ds-space-md": "1rem",
+                  "--ds-space-lg": "1.5rem",
+                  "--ds-font": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+                  "--ds-font-heading": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-page"
+                ],
+                "style": {
+                  "margin-top": "0px",
+                  "margin-right": "0px",
+                  "margin-bottom": "0px",
+                  "margin-left": "0px",
+                  "background-color": "rgb(248, 250, 252)",
+                  "color": "rgb(15, 23, 42)",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1rem",
+                  "font-weight": "400",
+                  "line-height": "1.6",
+                  "min-height": "100vh"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-container"
+                ],
+                "style": {
+                  "max-width": "1200px",
+                  "margin-top": "0px",
+                  "margin-right": "auto",
+                  "margin-bottom": "0px",
+                  "margin-left": "auto",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem",
+                  "width": "100%"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-section"
+                ],
+                "style": {
+                  "padding-top": "4rem",
+                  "padding-bottom": "4rem",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-nav"
+                ],
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "space-between",
+                  "row-gap": "1rem",
+                  "column-gap": "1rem",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-bottom-width": "1px",
+                  "border-bottom-style": "solid",
+                  "border-bottom-color": "rgb(226, 232, 240)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-hero"
+                ],
+                "style": {
+                  "background-image": "linear-gradient(135deg, rgb(37, 99, 235) 0%, rgb(14, 165, 233) 100%)",
+                  "background-position-x": "initial",
+                  "background-position-y": "initial",
+                  "background-size": "initial",
+                  "background-repeat": "initial",
+                  "background-attachment": "initial",
+                  "background-origin": "initial",
+                  "background-clip": "initial",
+                  "background-color": "initial",
+                  "color": "rgb(255, 255, 255)",
+                  "padding-top": "4rem",
+                  "padding-bottom": "4rem",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem",
+                  "text-align": "left"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-hero .ds-heading",
+                "style": {
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-heading"
+                ],
+                "style": {
+                  "margin-top": "0px",
+                  "margin-right": "0px",
+                  "margin-bottom": "0.5rem",
+                  "margin-left": "0px",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1.875rem",
+                  "font-weight": "650",
+                  "line-height": "1.15",
+                  "letter-spacing": "-0.02em",
+                  "color": "rgb(15, 23, 42)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-hero h1.ds-heading, .ds-hero .ds-heading",
+                "style": {
+                  "font-size": "2.75rem",
+                  "font-weight": "750",
+                  "letter-spacing": "-0.03em",
+                  "line-height": "1.08",
+                  "max-width": "22ch"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-card"
+                ],
+                "style": {
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "padding-top": "1.5rem",
+                  "padding-right": "1.5rem",
+                  "padding-bottom": "1.5rem",
+                  "padding-left": "1.5rem",
+                  "box-shadow": "rgba(15, 23, 42, 0.05) 0px 1px 2px, rgba(15, 23, 42, 0.06) 0px 4px 16px",
+                  "transition-behavior": "normal, normal",
+                  "transition-duration": "0.2s, 0.2s",
+                  "transition-timing-function": "ease, ease",
+                  "transition-delay": "0s, 0s",
+                  "transition-property": "box-shadow, transform"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-card"
+                ],
+                "style": {
+                  "box-shadow": "rgba(15, 23, 42, 0.06) 0px 2px 4px, rgba(15, 23, 42, 0.1) 0px 12px 32px",
+                  "transform": "translateY(-1px)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-grid-2"
+                ],
+                "style": {
+                  "display": "grid",
+                  "grid-template-columns": "repeat(2, minmax(0px, 1fr))",
+                  "row-gap": "1.5rem",
+                  "column-gap": "1.5rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-grid-3"
+                ],
+                "style": {
+                  "display": "grid",
+                  "grid-template-columns": "repeat(3, minmax(0px, 1fr))",
+                  "row-gap": "1.5rem",
+                  "column-gap": "1.5rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-grid-2"
+                ],
+                "style": {
+                  "grid-template-columns": "1fr"
+                },
+                "mediaText": "(max-width: 768px)",
+                "atRuleType": "media"
+              },
+              {
+                "selectors": [
+                  "ds-grid-3"
+                ],
+                "style": {
+                  "grid-template-columns": "1fr"
+                },
+                "mediaText": "(max-width: 768px)",
+                "atRuleType": "media"
+              },
+              {
+                "selectors": [
+                  "ds-kpi"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "row-gap": "0.25rem",
+                  "column-gap": "0.25rem",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "padding-top": "1.5rem",
+                  "padding-right": "1.5rem",
+                  "padding-bottom": "1.5rem",
+                  "padding-left": "1.5rem",
+                  "box-shadow": "rgba(15, 23, 42, 0.05) 0px 1px 2px, rgba(15, 23, 42, 0.06) 0px 4px 16px",
+                  "transition-behavior": "normal, normal",
+                  "transition-duration": "0.2s, 0.2s",
+                  "transition-timing-function": "ease, ease",
+                  "transition-delay": "0s, 0s",
+                  "transition-property": "box-shadow, transform"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-kpi"
+                ],
+                "style": {
+                  "box-shadow": "rgba(15, 23, 42, 0.06) 0px 2px 4px, rgba(15, 23, 42, 0.1) 0px 12px 32px",
+                  "transform": "translateY(-1px)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-kpi-value"
+                ],
+                "style": {
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "2.75rem",
+                  "font-weight": "700",
+                  "line-height": "1.05",
+                  "letter-spacing": "-0.02em",
+                  "color": "rgb(37, 99, 235)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-kpi-label"
+                ],
+                "style": {
+                  "font-size": "0.875rem",
+                  "font-weight": "600",
+                  "letter-spacing": "0.04em",
+                  "text-transform": "uppercase",
+                  "color": "rgb(100, 116, 139)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-table-wrap"
+                ],
+                "style": {
+                  "overflow-x": "auto",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-table"
+                ],
+                "style": {
+                  "width": "100%",
+                  "border-collapse": "collapse",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "overflow-x": "hidden",
+                  "overflow-y": "hidden",
+                  "font-size": "1rem",
+                  "color": "rgb(15, 23, 42)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-table th",
+                "style": {
+                  "text-align": "left",
+                  "padding-top": "0.75rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "0.75rem",
+                  "padding-left": "1rem",
+                  "background-color": "rgb(248, 250, 252)",
+                  "border-bottom-width": "2px",
+                  "border-bottom-style": "solid",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "font-weight": "600",
+                  "font-size": "0.8125rem",
+                  "letter-spacing": "0.02em",
+                  "text-transform": "uppercase",
+                  "color": "rgb(100, 116, 139)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-table td",
+                "style": {
+                  "padding-top": "0.75rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "0.75rem",
+                  "padding-left": "1rem",
+                  "border-bottom-width": "1px",
+                  "border-bottom-style": "solid",
+                  "border-bottom-color": "rgb(226, 232, 240)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-table tbody tr:last-child td",
+                "style": {
+                  "border-bottom-width": "medium",
+                  "border-bottom-style": "none",
+                  "border-bottom-color": "currentcolor"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-btn"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "row-gap": "0.25rem",
+                  "column-gap": "0.25rem",
+                  "padding-top": "0.625rem",
+                  "padding-right": "1.25rem",
+                  "padding-bottom": "0.625rem",
+                  "padding-left": "1.25rem",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "background-color": "rgb(255, 255, 255)",
+                  "color": "rgb(15, 23, 42)",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1rem",
+                  "font-weight": "600",
+                  "text-decoration-line": "none",
+                  "text-decoration-thickness": "initial",
+                  "text-decoration-style": "initial",
+                  "text-decoration-color": "initial",
+                  "cursor": "pointer",
+                  "transition-behavior": "normal, normal, normal, normal",
+                  "transition-duration": "0.15s, 0.15s, 0.15s, 0.15s",
+                  "transition-timing-function": "ease, ease, ease, ease",
+                  "transition-delay": "0s, 0s, 0s, 0s",
+                  "transition-property": "background-color, border-color, filter, transform"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-btn"
+                ],
+                "style": {
+                  "border-top-color": "rgb(100, 116, 139)",
+                  "border-right-color": "rgb(100, 116, 139)",
+                  "border-bottom-color": "rgb(100, 116, 139)",
+                  "border-left-color": "rgb(100, 116, 139)",
+                  "background-color": "rgb(248, 250, 252)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-btn-primary"
+                ],
+                "style": {
+                  "background-image": "initial",
+                  "background-position-x": "initial",
+                  "background-position-y": "initial",
+                  "background-size": "initial",
+                  "background-repeat": "initial",
+                  "background-attachment": "initial",
+                  "background-origin": "initial",
+                  "background-clip": "initial",
+                  "background-color": "rgb(37, 99, 235)",
+                  "border-top-color": "rgb(37, 99, 235)",
+                  "border-right-color": "rgb(37, 99, 235)",
+                  "border-bottom-color": "rgb(37, 99, 235)",
+                  "border-left-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-btn-primary"
+                ],
+                "style": {
+                  "filter": "brightness(1.08)",
+                  "background-color": "transparent",
+                  "transform": "translateY(-1px)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-notice"
+                ],
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "row-gap": "0.5rem",
+                  "column-gap": "0.5rem",
+                  "padding-top": "0.5rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "0.5rem",
+                  "padding-left": "1rem",
+                  "background-color": "rgba(14, 165, 233, 0.12)",
+                  "border-left-width": "4px",
+                  "border-left-style": "solid",
+                  "border-left-color": "rgb(14, 165, 233)",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "color": "rgb(15, 23, 42)",
+                  "font-size": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-badge"
+                ],
+                "style": {
+                  "display": "inline-block",
+                  "padding-top": "0.125rem",
+                  "padding-right": "0.5rem",
+                  "padding-bottom": "0.125rem",
+                  "padding-left": "0.5rem",
+                  "background-color": "rgba(14, 165, 233, 0.12)",
+                  "border-top-left-radius": "999px",
+                  "border-top-right-radius": "999px",
+                  "border-bottom-right-radius": "999px",
+                  "border-bottom-left-radius": "999px",
+                  "color": "rgb(14, 165, 233)",
+                  "font-size": "0.875rem",
+                  "font-weight": "600"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-field"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "row-gap": "0.25rem",
+                  "column-gap": "0.25rem",
+                  "margin-bottom": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-label"
+                ],
+                "style": {
+                  "font-size": "0.875rem",
+                  "font-weight": "600",
+                  "color": "rgb(15, 23, 42)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-input"
+                ],
+                "style": {
+                  "width": "100%",
+                  "padding-top": "0.5rem",
+                  "padding-right": "0.75rem",
+                  "padding-bottom": "0.5rem",
+                  "padding-left": "0.75rem",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "color": "rgb(15, 23, 42)",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-input"
+                ],
+                "style": {
+                  "outline-color": "initial",
+                  "outline-style": "none",
+                  "outline-width": "initial",
+                  "border-top-color": "rgb(37, 99, 235)",
+                  "border-right-color": "rgb(37, 99, 235)",
+                  "border-bottom-color": "rgb(37, 99, 235)",
+                  "border-left-color": "rgb(37, 99, 235)",
+                  "box-shadow": "rgba(37, 99, 235, 0.15) 0px 0px 0px 3px"
+                },
+                "state": "focus"
+              },
+              {
+                "selectors": [
+                  "ds-footer"
+                ],
+                "style": {
+                  "background-color": "rgb(71, 85, 105)",
+                  "color": "rgb(255, 255, 255)",
+                  "padding-top": "2.5rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "2.5rem",
+                  "padding-left": "1rem",
+                  "font-size": "0.875rem"
+                }
+              },
+              {
+                "selectors": [
+                  "#iuc45"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i4v96"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "font-size": "24px",
+                  "margin-bottom": "30px",
+                  "font-weight": "bold"
+                }
+              },
+              {
+                "selectors": [
+                  "#iu5c2"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ir287"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "rgba(255,255,255,0.2)",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ipaxd"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "flex": "1"
+                }
+              },
+              {
+                "selectors": [
+                  "#i5amt"
+                ],
+                "style": {
+                  "margin-top": "auto",
+                  "padding-top": "20px",
+                  "border-top": "1px solid rgba(255,255,255,0.2)",
+                  "font-size": "11px",
+                  "opacity": "0.8",
+                  "text-align": "center"
+                }
+              },
+              {
+                "selectors": [
+                  "#ikxw4"
+                ],
+                "style": {
+                  "width": "250px",
+                  "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                  "color": "white",
+                  "padding": "20px",
+                  "overflow-y": "auto",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              },
+              {
+                "selectors": [
+                  "#iwnjl"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "color": "#333",
+                  "font-size": "32px",
+                  "margin-bottom": "10px"
+                }
+              },
+              {
+                "selectors": [
+                  "#irvqh"
+                ],
+                "style": {
+                  "color": "#666",
+                  "margin-bottom": "30px"
+                }
+              },
+              {
+                "selectors": [
+                  "#table-timeservice-1"
+                ],
+                "style": {
+                  "width": "100%",
+                  "min-height": "400px"
+                }
+              },
+              {
+                "selectors": [
+                  "#if1d2"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "padding": "6px 14px",
+                  "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                  "color": "#fff",
+                  "text-decoration": "none",
+                  "border-radius": "4px",
+                  "font-size": "13px",
+                  "font-weight": "600",
+                  "letter-spacing": "0.01em",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                  "transition": "background 0.2s"
+                }
+              },
+              {
+                "selectors": [
+                  "#i47s4"
+                ],
+                "style": {
+                  "margin-top": "20px",
+                  "display": "flex",
+                  "gap": "10px",
+                  "flex-wrap": "wrap"
+                }
+              },
+              {
+                "selectors": [
+                  "#i4l4x"
+                ],
+                "style": {
+                  "flex": "1",
+                  "padding": "40px",
+                  "overflow-y": "auto",
+                  "background": "#f5f5f5"
+                }
+              },
+              {
+                "selectors": [
+                  "#iucp3"
+                ],
+                "style": {
+                  "display": "flex",
+                  "height": "100vh",
+                  "font-family": "Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "#i2nhk"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "font-size": "24px",
+                  "margin-bottom": "30px",
+                  "font-weight": "bold"
+                }
+              },
+              {
+                "selectors": [
+                  "#ibl3c"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "rgba(255,255,255,0.2)",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i6nvk"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i8ejw"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "flex": "1"
+                }
+              },
+              {
+                "selectors": [
+                  "#ifh7a"
+                ],
+                "style": {
+                  "margin-top": "auto",
+                  "padding-top": "20px",
+                  "border-top": "1px solid rgba(255,255,255,0.2)",
+                  "font-size": "11px",
+                  "opacity": "0.8",
+                  "text-align": "center"
+                }
+              },
+              {
+                "selectors": [
+                  "#i2lqa"
+                ],
+                "style": {
+                  "width": "250px",
+                  "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                  "color": "white",
+                  "padding": "20px",
+                  "overflow-y": "auto",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              },
+              {
+                "selectors": [
+                  "#i928z"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "color": "#333",
+                  "font-size": "32px",
+                  "margin-bottom": "10px"
+                }
+              },
+              {
+                "selectors": [
+                  "#iy68f"
+                ],
+                "style": {
+                  "color": "#666",
+                  "margin-bottom": "30px"
+                }
+              },
+              {
+                "selectors": [
+                  "#table-helloworld-0"
+                ],
+                "style": {
+                  "width": "100%",
+                  "min-height": "400px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ilafy"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "padding": "6px 14px",
+                  "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                  "color": "#fff",
+                  "text-decoration": "none",
+                  "border-radius": "4px",
+                  "font-size": "13px",
+                  "font-weight": "600",
+                  "letter-spacing": "0.01em",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                  "transition": "background 0.2s"
+                }
+              },
+              {
+                "selectors": [
+                  "#i84pc"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "padding": "6px 14px",
+                  "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                  "color": "#fff",
+                  "text-decoration": "none",
+                  "border-radius": "4px",
+                  "font-size": "13px",
+                  "font-weight": "600",
+                  "letter-spacing": "0.01em",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                  "transition": "background 0.2s"
+                }
+              },
+              {
+                "selectors": [
+                  "#ipvsa"
+                ],
+                "style": {
+                  "margin-top": "20px",
+                  "display": "flex",
+                  "gap": "10px",
+                  "flex-wrap": "wrap"
+                }
+              },
+              {
+                "selectors": [
+                  "#ic7fv"
+                ],
+                "style": {
+                  "flex": "1",
+                  "padding": "40px",
+                  "overflow-y": "auto",
+                  "background": "#f5f5f5"
+                }
+              },
+              {
+                "selectors": [
+                  "#itj27"
+                ],
+                "style": {
+                  "display": "flex",
+                  "height": "100vh",
+                  "font-family": "Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "#ii32i"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "font-size": "24px",
+                  "margin-bottom": "30px",
+                  "font-weight": "bold"
+                }
+              },
+              {
+                "selectors": [
+                  "#igejr"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#imhov"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "rgba(255,255,255,0.2)",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#inx3k"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "flex": "1"
+                }
+              },
+              {
+                "selectors": [
+                  "#i39lf"
+                ],
+                "style": {
+                  "margin-top": "auto",
+                  "padding-top": "20px",
+                  "border-top": "1px solid rgba(255,255,255,0.2)",
+                  "font-size": "11px",
+                  "opacity": "0.8",
+                  "text-align": "center"
+                }
+              },
+              {
+                "selectors": [
+                  "#ih9e4"
+                ],
+                "style": {
+                  "width": "250px",
+                  "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                  "color": "white",
+                  "padding": "20px",
+                  "overflow-y": "auto",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              },
+              {
+                "selectors": [
+                  "#icgh9"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "color": "#333",
+                  "font-size": "32px",
+                  "margin-bottom": "10px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i1x0f"
+                ],
+                "style": {
+                  "color": "#666",
+                  "margin-bottom": "30px"
+                }
+              },
+              {
+                "selectors": [
+                  "#icy2k"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "padding": "6px 14px",
+                  "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                  "color": "#fff",
+                  "text-decoration": "none",
+                  "border-radius": "4px",
+                  "font-size": "13px",
+                  "font-weight": "600",
+                  "letter-spacing": "0.01em",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                  "transition": "background 0.2s"
+                }
+              },
+              {
+                "selectors": [
+                  "#i5mr3"
+                ],
+                "style": {
+                  "margin-top": "20px",
+                  "display": "flex",
+                  "gap": "10px",
+                  "flex-wrap": "wrap"
+                }
+              },
+              {
+                "selectors": [
+                  "#ihd8x"
+                ],
+                "style": {
+                  "flex": "1",
+                  "padding": "40px",
+                  "overflow-y": "auto",
+                  "background": "#f5f5f5"
+                }
+              },
+              {
+                "selectors": [
+                  "#ih1wo"
+                ],
+                "style": {
+                  "display": "flex",
+                  "height": "100vh",
+                  "font-family": "Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "#i1p5"
+                ],
+                "style": {
+                  "background-color": "#2563eb"
+                }
+              },
+              {
+                "selectors": [
+                  "#inote"
+                ],
+                "style": {
+                  "background-color": "#2563eb"
+                }
+              }
+            ],
+            "assets": [],
+            "symbols": [],
+            "version": "0.21.13"
+          },
+          "lastUpdate": "2026-11-06T14:39:05.772Z"
+        }
+      ],
+      "AgentDiagram": [
+        {
+          "id": "8edba311-eaf0-4dc6-a0b9-9d5c44ae0d30",
+          "title": "Agent Diagram",
+          "model": {
+            "version": "3.0.0",
+            "type": "AgentDiagram",
+            "size": {
+              "width": 940,
+              "height": 580
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "9796042d-1897-4980-acf9-1476d93ef04a": {
+                "id": "9796042d-1897-4980-acf9-1476d93ef04a",
+                "name": "",
+                "type": "StateInitialNode",
+                "owner": null,
+                "bounds": {
+                  "x": -450,
+                  "y": -270,
+                  "width": 45,
+                  "height": 45
+                }
+              }
+            },
+            "relationships": {},
+            "assessments": {}
+          },
+          "lastUpdate": "2026-11-06T13:14:51.776Z",
+          "config": {
+            "agentPlatform": "websocket",
+            "intentRecognitionTechnology": "classical"
+          }
+        }
+      ]
+    },
+    "settings": {
+      "defaultDiagramType": "ClassDiagram",
+      "autoSave": true,
+      "collaborationEnabled": false,
+      "perspectives": {
+        "ClassDiagram": true,
+        "ObjectDiagram": true,
+        "StateMachineDiagram": true,
+        "AgentDiagram": true,
+        "UserDiagram": true,
+        "GUINoCodeDiagram": true,
+        "QuantumCircuitDiagram": true,
+        "NNDiagram": true,
+        "BPMN": true,
+        "ComponentDiagram": true,
+        "DeploymentDiagram": true,
+        "KnowledgeGraphDiagram": true
+      },
+      "preferredInterface": "model"
+    },
+    "attribution": {
+      "14fd3c5e-aa01-4098-9213-98c00fffb131": {
+        "addedBy": "fabsi-IDC",
+        "addedAt": "2026-11-06T14:42:55Z"
+      },
+      "attr_3m1lux1cx_mw0vgnrg_qre": {
+        "addedBy": "fabsi-IDC",
+        "addedAt": "2026-11-06T14:42:55Z"
+      },
+      "class_kjy9sn6ld_mw0vgnrg_m1e": {
+        "addedBy": "fabsi-IDC",
+        "addedAt": "2026-11-06T14:42:55Z"
+      },
+      "class_yj7pqh7vi_mw4zqmk6_dtb": {
+        "addedBy": "fabsi-IDC",
+        "addedAt": "2026-11-06T14:42:55Z"
+      },
+      "method_q42piav36_mw4zqmk6_srk": {
+        "addedBy": "fabsi-IDC",
+        "addedAt": "2026-11-06T14:42:55Z"
+      },
+      "method_ye0hlrs7f_mw4zqmk6_ih6": {
+        "addedBy": "fabsi-IDC",
+        "addedAt": "2026-11-06T14:42:55Z"
+      },
+      "method_zg5zggc0r_mw0vgnrg_d4h": {
+        "addedBy": "fabsi-IDC",
+        "addedAt": "2026-11-06T14:42:55Z"
+      }
+    }
+  },
+  "exportedAt": "2026-11-06T14:42:41.031Z",
+  "version": "2.0.0",
+  "editorVersion": "1.0.0"
+}
